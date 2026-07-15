@@ -1,13 +1,13 @@
-# Balance Game Arena
+# 밸런스 게임 아레나
 
 회의 참가자들이 같은 화면에서 차례로 A/B 선택을 하고 팀의 취향 결과를 확인하는 캐주얼 밸런스 게임입니다.
 
-## Requirements
+## 실행 환경
 
 - Node.js 20 이상
 - npm
 
-## Run locally
+## 로컬 실행
 
 ```bash
 npm install
@@ -16,7 +16,7 @@ npm run dev
 
 브라우저에서 [http://localhost:3000](http://localhost:3000)을 엽니다.
 
-## Production validation
+## 배포 전 검증
 
 ```bash
 npm run lint
@@ -24,7 +24,7 @@ npx tsc --noEmit
 npm run build
 ```
 
-## Included features
+## 주요 기능
 
 - 2~8명 참가자 등록
 - 기본 밸런스 질문 7개
