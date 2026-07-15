@@ -1,6 +1,6 @@
-import type { PropsWithChildren } from 'react';
+import type { PropsWithChildren } from "react";
 
-export function PanelLayerHost(props: PropsWithChildren)
+export function PanelLayerHost(Props: PropsWithChildren)
 {
-    return <>{props.children}</>;
+    return <div className="panel-layer-host"><div className="panel-backdrop" />{Props.children}</div>;
 }

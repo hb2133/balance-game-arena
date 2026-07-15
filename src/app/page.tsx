@@ -1,6 +1,6 @@
-import { AppShell } from './shell/AppShell';
+import { ArenaLobbyBasePanel } from "@/panels/base/ArenaLobbyBasePanel/ArenaLobbyBasePanel";
 
 export default function Home()
 {
-    return <AppShell />;
+    return <ArenaLobbyBasePanel />;
 }
