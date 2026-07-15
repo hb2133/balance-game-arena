@@ -42,3 +42,21 @@ next-env.d.ts
 # project_bootstrap managed
 CLAUDE.md
 log/
+
+# local agent instructions and work records
+/AGENTS.md
+/AgentWorks/
+/.claude/
+/.codex/
+
+# local-only workflow helpers
+/scripts/
+/start-dev.sh
+/start-dev.cmd
+
+# local editor settings
+/.vscode/
+
+# generated Python cache
+__pycache__/
+*.py[cod]
